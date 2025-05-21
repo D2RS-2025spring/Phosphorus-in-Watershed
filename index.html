@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>流域磷研究学术网站</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e6f7f7;
+            color: #333;
+        }
+
+        header {
+            background-color: #004d4d;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header img {
+            width: 255px;
+            height: auto;
+            margin-top: 10px;
+        }
+
+        /* 导航栏样式 */
+        nav {
+            background-color: #006666;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 5px 15px;
+            border-radius: 5px;
+        }
+
+        nav ul li a:hover {
+            background-color: #004d4d;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        footer {
+            background-color: #1b7070;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+
+        .header-background {
+            background-image: url('images/4.png'); /* 替换为图片路径 */
+            background-size: cover; /* 图片填充整个背景 */
+            background-position: center; /* 居中显示图片 */
+            height: 300px; /* 设置背景高度 */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+
+        .header-content h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        /* 调整文本样式 */
+        #intro-content, #research-content {
+            font-size: 1.2em; /* 增大字体 */
+            line-height: 1.6; /* 增加行高，提升可读性 */
+            color: #333;
+            background-color: #fff;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        #view-details {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #004d4d;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        #view-details:hover {
+            background-color: #003737;
+        }
+
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .section-header h2 {
+            margin: 0;
+        }
+
+        #view-details {
+            padding: 5px 15px;
+            background-color: #004d4d;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 0.9em;
+        }
+
+        #view-details:hover {
+            background-color: #003737;
+        }
+
+        /* 画廊样式 */
+        .gallery {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        /* 流域一览样式 */
+        #watershed-gallery {
+            margin-top: 30px;
+        }
+
+        #watershed-gallery h2 {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+        }
+
+        .gallery {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .gallery img {
+            width: 300px;
+            height: auto;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-background">
+
+            <div class="header-content">
+                <h1>流域磷研究学术网站</h1>
+            </div>
+        </div>
+    </header>
+    <main>
+        <nav>
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="research.html">研究方向</a></li>
+                <li><a href="literature.html">文献分享</a></li>
+                <li><a href="tools.html">学术资源</a></li>
+                <li><a href="contact.html">联系我们</a></li>
+            </ul>
+        </nav>
+        <section id="introduction">
+            <h2>简介</h2>
+            <p id="intro-content">磷（P）是驱动流域生态过程的核心元素，其迁移转化行为直接关联水体富营养化、土壤肥力演变及生物地球化学循环。
+                <br> 本网页聚焦流域尺度磷的“源解析-迁移机制-环境效应-综合治理”全链条研究，整合多学科方法与前沿技术，致力于解析磷循环的复杂界面过程，为水质安全、生态修复与可持续农业提供科学决策支持。</p>
+        </section>
+        <section id="research-overview">
+            <div class="section-header">
+                <h2>研究介绍</h2>
+            </div>
+            <p id="research-content">流域磷研究涵盖六大核心方向，系统揭示磷从“产生”到“归宿”的多尺度行为：
+                <br>源解析与负荷估算 —— 精准定位污染源，量化磷输入输出通量；
+                <br> 迁移转化过程 —— 揭示磷在土壤、水体、生物间的动态交互机制；
+                <br>形态与赋存分布 —— 解析磷化学形态差异及其环境风险；
+                <br>收支平衡与通量评估 —— 构建磷循环模型，优化资源利用效率；
+                <br> 环境效应与生态响应 —— 评估磷过量输入对生态系统的级联影响；
+                <br>减排与管理技术 —— 集成智能防控策略，推动治理技术革新。</p>
+        </section>
+        <section id="watershed-gallery">
+            <h2>图片推荐</h2>
+            <div class="gallery">
+                <img src="images/2.png" alt="流域中磷的来源与转化">
+                <img src="images/3.png" alt="流域图片">
+                <img src="images/1.png" alt="研究技术">
+            </div>
+        </section>
+        
+    </main>
+    <footer>
+        <p>© 2025 流域磷研究 | 版权所有</p>
+    </footer>
+</body>
+</html>
